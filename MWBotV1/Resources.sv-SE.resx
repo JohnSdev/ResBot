@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommandBack" xml:space="preserve">
+    <value>Backa</value>
+  </data>
+  <data name="CommandBackHelp" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="CommandHelp" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="CommandHelpHelp" xml:space="preserve">
+    <value>Hjälp: Visar vilka kommandon som du kan skriva</value>
+  </data>
+  <data name="CommandHelpTerms" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="CommandQuit" xml:space="preserve">
+    <value>Avsluta</value>
+  </data>
+  <data name="CommandQuitHelp" xml:space="preserve">
+    <value>Avsluta: Avsluta formuläret.</value>
+  </data>
+  <data name="CommandQuitTerms" xml:space="preserve">
+    <value>Avsluta;hejdå;det räcker;bye;vi ses;ha det bra;hadet så bra!;</value>
+  </data>
+  <data name="CommandReset" xml:space="preserve">
+    <value>Starta om</value>
+  </data>
+  <data name="CommandResetHelp" xml:space="preserve">
+    <value>Starta om; omstart: Var god fyll i formuläret.</value>
+  </data>
+  <data name="CommandResetTerms" xml:space="preserve">
+    <value>starta om; omstart; rensa</value>
+  </data>
+  <data name="CommandStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CommandStatusHelp" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CommandStatusTerms" xml:space="preserve">
+    <value>status;resultat;granska</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="ConfirmChoiceFormat" xml:space="preserve">
+    <value>{1}</value>
+    <comment>0-number, 1-description</comment>
+  </data>
+  <data name="DefaultChoiceFormat" xml:space="preserve">
+    <value>{0}. {1}</value>
+    <comment>0-number, 1-description</comment>
+  </data>
+  <data name="DefaultChoiceLastSeparator" xml:space="preserve">
+    <value>, eller</value>
+  </data>
+  <data name="DefaultChoiceSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="DefaultLastSeparator" xml:space="preserve">
+    <value>, och</value>
+  </data>
+  <data name="LanguageStopWords" xml:space="preserve">
+    <value>aderton;
+adertonde;
+adj�;
+aldrig;
+alla;
+allas;
+allt;
+alltid;
+allts�;
+�n;
+andra;
+andras;
+annan;
+annat;
+�nnu;
+artonde;
+artonn;
+�tminstone;
+att;
+�tta;
+�ttio;
+�ttionde;
+�ttonde;
+av;
+�ven
+b�da
+b�das
+bakom
+bara
+b�st
+b�ttre
+beh�va
+beh�vas
+beh�vde
+beh�vt
+beslut
+beslutat
+beslutit
+bland
+blev
+bli
+blir
+blivit
+bort
+borta
+bra
+d�
+dag
+dagar
+dagarna
+dagen
+d�r
+d�rf�r
+de
+del
+delen
+dem
+den
+deras
+dess
+det
+detta
+dig
+din
+dina
+dit
+ditt
+dock
+du
+efter
+eftersom
+elfte
+eller
+elva
+en
+enkel
+enkelt
+enkla
+enligt
+er
+era
+ert
+ett
+ettusen
+f�
+fanns
+f�r
+f�tt
+fem
+femte
+femtio
+femtionde
+femton
+femtonde
+fick
+fin
+finnas
+finns
+fj�rde
+fjorton
+fjortonde
+fler
+flera
+flesta
+f�ljande
+f�r
+f�re
+f�rl�t
+f�rra
+f�rsta
+fram
+framf�r
+fr�n
+fyra
+fyrtio
+fyrtionde
+g�
+g�lla
+g�ller
+g�llt
+g�r
+g�rna
+g�tt
+genast
+genom
+gick
+gjorde
+gjort
+god
+goda
+godare
+godast
+g�r
+g�ra
+gott
+ha
+hade
+haft
+han
+hans
+har
+h�r
+heller
+hellre
+helst
+helt
+henne
+hennes
+hit
+h�g
+h�ger
+h�gre
+h�gst
+hon
+honom
+hundra
+hundraen
+hundraett
+hur
+i
+ibland
+idag
+ig�r
+igen
+imorgon
+in
+inf�r
+inga
+ingen
+ingenting
+inget
+innan
+inne
+inom
+inte
+inuti
+ja
+jag
+j�mf�rt
+kan
+	kanske
+knappast
+kom
+komma
+kommer
+kommit
+kr
+kunde
+kunna
+kunnat
+kvar
+l�nge
+l�ngre
+l�ngsam
+l�ngsammare
+l�ngsammast
+l�ngsamt
+l�ngst
+l�ngt
+l�tt
+l�ttare
+l�ttast
+legat
+ligga
+ligger
+lika
+likst�lld
+likst�llda
+lilla
+lite
+liten
+litet
+man
+m�nga
+m�ste
+med
+mellan
+men
+mer
+mera
+mest
+mig
+min
+mina
+mindre
+minst
+mitt
+mittemot
+m�jlig
+m�jligen
+m�jligt
+m�jligtvis
+mot
+mycket
+n�gon
+n�gonting
+n�got
+n�gra
+n�r
+n�sta
+ned
+nederst
+nedersta
+nedre
+nej
+ner
+ni
+nio
+nionde
+nittio
+nittionde
+nitton
+nittonde
+n�dv�ndig
+n�dv�ndiga
+n�dv�ndigt
+n�dv�ndigtvis
+nog
+noll
+nr
+nu
+nummer
+och
+ocks�
+ofta
+oftast
+olika
+olikt
+om
+oss
+�ver
+�vermorgon
+�verst
+�vre
+p�
+rakt
+r�tt
+redan
+s�
+sade
+s�ga
+s�ger
+sagt
+samma
+s�mre
+s�mst
+sedan
+senare
+senast
+sent
+sex
+sextio
+sextionde
+sexton
+sextonde
+sig
+sin
+sina
+sist
+sista
+siste
+sitt
+sj�tte
+sju
+sjunde
+sjuttio
+sjuttionde
+sjutton
+sjuttonde
+ska
+skall
+skulle
+slutligen
+sm�
+sm�tt
+snart
+som
+stor
+stora
+st�rre
+st�rst
+stort
+tack
+tidig
+tidigare
+tidigast
+tidigt
+till
+tills
+tillsammans
+tio
+tionde
+tjugo
+tjugoen
+tjugoett
+tjugonde
+tjugotre
+tjugotv�
+tjungo
+tolfte
+tolv
+tre
+tredje
+trettio
+trettionde
+tretton
+trettonde
+tv�
+tv�hundra
+under
+upp
+ur
+urs�kt
+ut
+utan
+utanf�r
+ute
+vad
+v�nster
+v�nstra
+	var
+v�r
+vara
+v�ra
+varf�r
+varifr�n
+varit
+varken
+v�rre
+vars�god
+vart
+v�rt
+vem
+vems
+verkligen
+vi
+vid
+vidare
+viktig
+viktigare
+viktigast
+viktigt
+vilka
+vilken
+vilket
+villaderton
+adertonde
+adj�
+aldrig
+alla
+allas
+allt
+alltid
+allts�
+�n
+andra
+andras
+annan
+annat
+�nnu
+artonde
+artonn
+�tminstone
+att
+�tta
+�ttio
+�ttionde
+�ttonde
+av
+�ven
+b�da
+b�das
+bakom
+bara
+b�st
+b�ttre
+beh�va
+beh�vas
+beh�vde
+beh�vt
+beslut
+beslutat
+beslutit
+bland
+blev
+bli
+blir
+blivit
+bort
+borta
+bra
+d�
+dag
+dagar
+dagarna
+dagen
+d�r
+d�rf�r
+de
+del
+delen
+dem
+den
+deras
+dess
+det
+detta
+dig
+din
+dina
+dit
+ditt
+dock
+du
+efter
+eftersom
+elfte
+eller
+elva
+en
+enkel
+enkelt
+enkla
+enligt
+er
+era
+ert
+ett
+ettusen
+f�
+fanns
+f�r
+f�tt
+fem
+femte
+femtio
+femtionde
+femton
+femtonde
+fick
+fin
+finnas
+finns
+fj�rde
+fjorton
+fjortonde
+fler
+flera
+flesta
+f�ljande
+f�r
+f�re
+f�rl�t
+f�rra
+f�rsta
+fram
+framf�r
+fr�n
+fyra
+fyrtio
+fyrtionde
+g�
+g�lla
+g�ller
+g�llt
+g�r
+g�rna
+g�tt
+genast
+genom
+gick
+gjorde
+gjort
+god
+goda
+godare
+godast
+g�r
+g�ra
+gott
+ha
+hade
+haft
+han
+hans
+har
+h�r
+heller
+hellre
+helst
+helt
+henne
+hennes
+hit
+h�g
+h�ger
+h�gre
+h�gst
+hon
+honom
+hundra
+hundraen
+hundraett
+hur
+i
+ibland
+idag
+ig�r
+igen
+imorgon
+in
+inf�r
+inga
+ingen
+ingenting
+inget
+innan
+inne
+inom
+inte
+inuti
+ja
+jag
+j�mf�rt
+kan
+	kanske
+knappast
+kom
+komma
+kommer
+kommit
+kr
+kunde
+kunna
+kunnat
+kvar
+l�nge
+l�ngre
+l�ngsam
+l�ngsammare
+l�ngsammast
+l�ngsamt
+l�ngst
+l�ngt
+l�tt
+l�ttare
+l�ttast
+legat
+ligga
+ligger
+lika
+likst�lld
+likst�llda
+lilla
+lite
+liten
+litet
+man
+m�nga
+m�ste
+med
+mellan
+men
+mer
+mera
+mest
+mig
+min
+mina
+mindre
+minst
+mitt
+mittemot
+m�jlig
+m�jligen
+m�jligt
+m�jligtvis
+mot
+mycket
+n�gon
+n�gonting
+n�got
+n�gra
+n�r
+n�sta
+ned
+nederst
+nedersta
+nedre
+nej
+ner
+ni
+nio
+nionde
+nittio
+nittionde
+nitton
+nittonde
+n�dv�ndig
+n�dv�ndiga
+n�dv�ndigt
+n�dv�ndigtvis
+nog
+noll
+nr
+nu
+nummer
+och
+ocks�
+ofta
+oftast
+olika
+olikt
+om
+oss
+�ver
+�vermorgon
+�verst
+�vre
+p�
+rakt
+r�tt
+redan
+s�
+sade
+s�ga
+s�ger
+sagt
+samma
+s�mre
+s�mst
+sedan
+senare
+senast
+sent
+sex
+sextio
+sextionde
+sexton
+sextonde
+sig
+sin
+sina
+sist
+sista
+siste
+sitt
+sj�tte
+sju
+sjunde
+sjuttio
+sjuttionde
+sjutton
+sjuttonde
+ska
+skall
+skulle
+slutligen
+sm�
+sm�tt
+snart
+som
+stor
+stora
+st�rre
+st�rst
+stort
+tack
+tidig
+tidigare
+tidigast
+tidigt
+till
+tills
+tillsammans
+tio
+tionde
+tjugo
+tjugoen
+tjugoett
+tjugonde
+tjugotre
+tjugotv�
+tjungo
+tolfte
+tolv
+tre
+tredje
+trettio
+trettionde
+tretton
+trettonde
+tv�
+tv�hundra
+under
+upp
+ur
+urs�kt
+ut
+utan
+utanf�r
+ute
+vad
+v�nster
+v�nstra
+	var
+v�r
+vara
+v�ra
+varf�r
+varifr�n
+varit
+varken
+v�rre
+vars�god
+vart
+v�rt
+vem
+vems
+verkligen
+vi
+vid
+vidare
+viktig
+viktigare
+viktigast
+viktigt
+vilka
+vilken
+vilket
+</value>
+  </data>
+  <data name="MatchCurrentChoice" xml:space="preserve">
+    <value>Nuvarande val;val</value>
+  </data>
+  <data name="MatchNo" xml:space="preserve">
+    <value>Nej, inte, nepp</value>
+  </data>
+  <data name="MatchNoPreference" xml:space="preserve">
+    <value>Ingen speciell, spelar ingen roll;</value>
+  </data>
+  <data name="MatchYes" xml:space="preserve">
+    <value>Ja, Absolut;självklart; yes</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Fältnamn</value>
+  </data>
+  <data name="PromptRetry" xml:space="preserve">
+    <value>Förlåt men jag förstår inte.</value>
+  </data>
+  <data name="TemplateBool" xml:space="preserve">
+    <value>Skulle du vilja ha en {&amp;}? {||}</value>
+  </data>
+  <data name="TemplateBoolHelp" xml:space="preserve">
+    <value>Var god skriv 'Ja' eller 'Nej'{?, {0}}.</value>
+    <comment>0-current choice, 1-no preference</comment>
+  </data>
+  <data name="TemplateClarify" xml:space="preserve">
+    <value>By "{0}" {&amp;} did you mean {||}</value>
+    <comment>0-term being clarified</comment>
+  </data>
+  <data name="TemplateConfirmation" xml:space="preserve">
+    <value>Är dessa här här dina val? {*}</value>
+  </data>
+  <data name="TemplateCurrentChoice" xml:space="preserve">
+    <value>(Nuvarande val: {})</value>
+  </data>
+  <data name="TemplateDateTime" xml:space="preserve">
+    <value>Vargod ange datur och tid får {&amp;} {||}</value>
+  </data>
+  <data name="TemplateDateTimeHelp" xml:space="preserve">
+    <value>Vargod ange format{?, {0}}{?, {1}}.</value>
+    <comment>0-current choice, 1-no preference</comment>
+  </data>
+  <data name="TemplateDouble" xml:space="preserve">
+    <value>Ange ett nummer{?mellan {0:F1} och{1:F1}} for {&amp;} {||}</value>
+    <comment>0-min, 1-max</comment>
+  </data>
+  <data name="TemplateDoubleChoiceFormat" xml:space="preserve">
+    <value>{1}</value>
+    <comment>0-number, 1-description</comment>
+  </data>
+  <data name="TemplateDoubleHelp" xml:space="preserve">
+    <value>Ange ett nummer{? mellan {2:F1} och {3:F1}}{?, {0}}{?, {1}}.</value>
+    <comment>0-current choice, 1-no preference, 2-min, 3-max</comment>
+  </data>
+  <data name="TemplateEnumSelectOne" xml:space="preserve">
+    <value>Välj en {&amp;} {||}</value>
+  </data>
+  <data name="TemplateIntegerChoiceFormat" xml:space="preserve">
+    <value>{1}</value>
+    <comment>0-number, 1-description</comment>
+  </data>
+  <data name="TemplateNavigation" xml:space="preserve">
+    <value>Vad vill du ändra? {||}</value>
+  </data>
+  <data name="TemplateNavigationFormat" xml:space="preserve">
+    <value>{&amp;}({})</value>
+  </data>
+  <data name="TemplateNoPreference" xml:space="preserve">
+    <value>Ingen speciell</value>
+  </data>
+  <data name="TemplateNotUnderstood" xml:space="preserve">
+    <value>"{0}"är inget {&amp;} val.</value>
+  </data>
+  <data name="TemplateStatusFormat" xml:space="preserve">
+    <value>{&amp;}: {}</value>
+  </data>
+  <data name="TemplateString" xml:space="preserve">
+    <value>Ange {&amp;} {||}</value>
+  </data>
+  <data name="TemplateUnspecified" xml:space="preserve">
+    <value>Opecifierad</value>
+  </data>
+  <data name="TooManyAttempts" xml:space="preserve">
+    <value>För många försök</value>
+  </data>
+  <data name="UnhandledExceptionToUser" xml:space="preserve">
+    <value>Förlåt men ett fel har inträffat, vi försöker åtgärda det snarast.</value>
+  </data>
+  <data name="NumberExpression" xml:space="preserve">
+    <value>[+-]?(?:\d+\.?\d*|\d*\.?\d+)</value>
+  </data>
+</root>
