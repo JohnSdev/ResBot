@@ -12,4 +12,4 @@ Limitations:
 -Chatbot is hosted on a limited storage online, first query will take up to 10s to execute.
 
 
-![FB Messenger](https://github.com/JohnSdev/ResBot/blob/master/SL%20chatbot%202.jpg)
+![FB Messenger](https://github.com/JohnSdev/ResBot/blob/master/resbot%2030.png)
